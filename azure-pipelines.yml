@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
+  name: 'COMP367-local'
 
 variables:
   solution: '**/*.sln'
